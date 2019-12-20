@@ -1,0 +1,9 @@
+function revS(x){
+var d=x.split("")
+var k=[]
+var s=d.length
+for(var i=0;i<s;i++){
+k.push(d.pop())}
+
+return k.join("");
+}

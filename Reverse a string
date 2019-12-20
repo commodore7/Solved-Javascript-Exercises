@@ -7,3 +7,5 @@ k.push(d.pop())}
 
 return k.join("");
 }
+
+We have to declare a variable for the array length (var s=d.length),reason: when the push method executes it does change the length because the array is getting smaller.
